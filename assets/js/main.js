@@ -71,6 +71,12 @@ jQuery(document).ready(function($) {
         
     });
 
+    // send to about us page
+    $(".open-aboutus").click(function(){
+        
+        window.location.href = "/about.html";
+    });
+
     // CLOSE POPUP SEQUENCE
     $(document).on('click', '.close-popup', function(){ 
         
